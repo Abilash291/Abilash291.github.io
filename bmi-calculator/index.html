@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Pacifico&display=swap" rel="stylesheet">
+    <title>Bmi Calculator</title>
+</head>
+<body>
+    
+    <header><h1>Bmi Calculator</h1>
+    <p>Stay Fit & Healthy</p>
+</header>
+
+    <div class="box">
+        <div class="container p-3 my-3 bg-dark text-white">
+            <label for="height">Height</label>
+            <div class="flex">
+               
+               <input type="number" class="height" name="ft" id="ft" placeholder="Feet" required><input type="number" placeholder="inches" class="height" name="inch" id="inch" required><br>
+            </div>
+            
+            <label for="weight">Weight</label>
+            <input type="number" name="weight" id="weight" placeholder="Kg" required><br>
+            <button id="cal" class="btn btn-outline-danger" onclick="cal()">Calculate</button>
+ 
+        </div>
+           <div class="container p-3 my-3 bg-dark text-white">
+               <h3>BMI Categories:</h3>
+            <p> Underweight = &lt;18.5 <br>
+                Normal weight = 18.5–24.9 <br>
+                Overweight = 25–29.9 <br>
+                Obesity = BMI of 30 or greater</p>
+        </div>
+        <div class="container p-3 my-3 bg-dark text-white">
+            <h3>Result</h3>
+            <p id="result"></p>
+
+        </div>
+        </div>
+    <footer class="footer">
+        <div class="footerContainer">
+            <p class="copyright">© Abilash 2021</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
