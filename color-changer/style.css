@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    letter-spacing:10px;
+    margin-top: 50px;
+}
+p{
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    letter-spacing: 4px;
+}
+#color{
+    display:flex;
+    justify-content: center;
+    column-gap: 1em;
+    
+}
+#clr1 ,#clr2{
+    border: 3px solid black;
+    border-radius: 35%;
+    width: 50px;
+    height: 30px;
+}
+
+
